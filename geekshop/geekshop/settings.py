@@ -156,6 +156,6 @@ EMAIL_USE_SSL = False
 EMAIL_HOST_USER = None
 EMAIL_HOST_PASSWORD = None
 
-# # Email as files
-# EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
-# EMAIL_FILE_PATH = "tmp/email-messages/"  # добавить папку в .gitignore
+# Email as files
+EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
+EMAIL_FILE_PATH = "tmp/email-messages/"  # добавить папку в .gitignore
