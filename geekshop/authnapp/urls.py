@@ -5,7 +5,6 @@ import authnapp.views as authnapp
 app_name = "authnapp"
 
 urlpatterns = [
-    urlpatterns = [
     re_path(r"^login/$", authnapp.login, name="login"),
     re_path(r"^logout/$", authnapp.logout, name="logout"),
     re_path(r"^register/$", authnapp.register, name="register"),
