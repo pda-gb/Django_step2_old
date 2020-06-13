@@ -234,3 +234,6 @@ venv_dj2/
 
 # geekshop
 tmp/
+
+# ключи
+geekshop/secrets/
