@@ -66,7 +66,7 @@ def edit(request):
         edit_form = ShopUserEditForm(instance=request.user)
 
     content = {"title": title, "edit_form": edit_form, "media_url": settings.MEDIA_URL}
-    return reer(request, "authnapp/edit.html", content)
+    return render(request, "authnapp/edit.html", content)
 
 
 def send_verify_mail(user):
