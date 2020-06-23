@@ -7,6 +7,7 @@ from django.db.models.signals import post_save
 from django.dispatch import receiver
 
 
+
 class ShopUser(AbstractUser):
     avatar = models.ImageField(upload_to="users_avatars", blank=True)
     age = models.PositiveIntegerField(verbose_name="возраст", default=18)
